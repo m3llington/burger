@@ -6,16 +6,16 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Here is your order:</label>
+    <label for="ca">Here is your current order:</label>
     <input type="text" id="ca" name="name">
   </div>
 
   <div class="form-group" id ="radio-button">
-    <label for="eaten">Add additional to your order!</label><br>
+    <label for="eaten">What else would you like to add to your order?</label><br>
 
   </div>
 
-  <button type="submit" id="add-burger">Add Burger</button>
+  <button type="submit" id="add-burger">Submit</button>
 </form>
 <br>
   </div>
@@ -27,7 +27,7 @@
 
 <div class="col-lg-1"></div>
   <div class="col-lg-3" id="orders">
-<h2>Order Up!</h2>
+<h2>Bon appetit!</h2>
 <ol>
   {{#each burgers}}
     {{#if eaten}}
@@ -41,7 +41,7 @@
 <div class="col-lg-6"></div>
 <div class="col-lg-4" id="eat">
 
-<h2>Burgers that you've eaten!</h2>
+<h2>Burgers that you've eaten so far:</h2>
 
 <ol>
   {{#each burgers}}
