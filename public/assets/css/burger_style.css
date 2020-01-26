@@ -1,6 +1,7 @@
 body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/33/Krusty_Krab_230b.png");
-    background-size: cover;
+    width: 100%;
+    background-image: url('../img/burger.png');
+    
 }
 
 #special-burger {
