@@ -1,10 +1,9 @@
 body {
     width: 100%;
-    background-image: url('../img/burger.png');
-    
+    background-image: url('../img/Burger%20background.jpg');
 }
 
-#special-burger {
+/* #special-burger {
     background-color: tan;
     padding-left: 90px;
     margin-left: 220px;
@@ -47,4 +46,4 @@ header {
     text-align: center;
     font-size: 350%;
     color: yellow;
-}
+} */
